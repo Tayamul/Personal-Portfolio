@@ -8,11 +8,11 @@ import {GiLaptop} from 'react-icons/gi'
 import { useState } from 'react'
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#");
+  const [activeNav, setActiveNav] = useState("#home");
 
   return (
     <nav>
-      <a href="#" onClick={() => setActiveNav("#")} className={activeNav === "#" ? "active" : ""}><GoHome/></a>
+      <a href="#home" onClick={() => setActiveNav("#home")} className={activeNav === "#home" ? "active" : ""}><GoHome/></a>
       <a href="#about" onClick={() => setActiveNav("#about")} className={activeNav === "#about" ? "active" : ""}><BiUserCircle/></a>
       <a href="#experience" onClick={() => setActiveNav("#experience")} className={activeNav === "#experience" ? "active" : ""}><GiLaptop/></a>
       <a href="#education" onClick={() => setActiveNav("#education")} className={activeNav === "#education" ? "active" : ""}><FaUserGraduate/></a>

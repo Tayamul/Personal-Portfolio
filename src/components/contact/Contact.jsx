@@ -15,7 +15,7 @@ const Contact = () => {
             <HiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>rai_tayamul@hotmail.com</h5>
-            <a href="mailto: rai_tayamul@hotmail.com" target="_blank">Send an email</a>
+            <a href="mailto: rai_tayamul@hotmail.com" target="_blank" rel="noreferrer">Send an email</a>
           </article>
           {/* <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
@@ -28,7 +28,7 @@ const Contact = () => {
             <BsWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
             <h5>07940024769</h5>
-            <a href="https://api.whatsapp.com/send?phone=+447948956381" target="_blank">Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=+447948956381" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           {/* <form action="">
             <input type="text" name="name" placeholder="Your Full Name" required />
