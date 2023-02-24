@@ -9,6 +9,7 @@ import {IoLogoHtml5} from 'react-icons/io'
 import {FaReact} from 'react-icons/fa'
 import {FaNodeJs} from 'react-icons/fa'
 import {SiMaterialui} from 'react-icons/si'
+import {SiFirebase} from 'react-icons/si'
 
 const Experience = () => {
   return (
@@ -23,36 +24,32 @@ const Experience = () => {
             <article className="experience__details">
               <IoLogoHtml5 className="experience__details-icon"/>
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>HTML5</h4>
+                {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
             <article className="experience__details">
               <IoLogoCss3 className="experience__details-icon"/>
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <SiJavascript className="experience__details-icon"/>
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
               </div>              
             </article>
             <article className="experience__details">
               <FaReact className="experience__details-icon"/>
               <div>
                 <h4>React</h4>
-                <small className="text-light">Intermediate</small>
               </div>              
             </article>
             <article className="experience__details">
               <SiMaterialui className="experience__details-icon"/>
               <div>
                 <h4>Material UI</h4>
-                <small className="text-light">Intermediate</small>
               </div>              
             </article>
           </div>
@@ -67,21 +64,24 @@ const Experience = () => {
               <FaNode className="experience__details-icon"/>
               <div>
                 <h4>Node JS</h4>
-                <small className="text-light">Experienced</small>
               </div>             
             </article>
             <article className="experience__details">
               <FaNodeJs className="experience__details-icon"/>
               <div>
                 <h4>Express</h4>
-                <small className="text-light">Experienced</small>
               </div>             
             </article>
             <article className="experience__details">
               <SiPostgresql className="experience__details-icon"/>
               <div>
                 <h4>PSQL</h4>
-                <small className="text-light">Experienced</small>
+              </div>             
+            </article>
+            <article className="experience__details">
+              <SiFirebase className="experience__details-icon"/>
+              <div>
+                <h4>Firebase</h4>
               </div>             
             </article>
           </div>
