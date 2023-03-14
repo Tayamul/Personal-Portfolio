@@ -29,7 +29,7 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon"/>
               <h5>Projects</h5>
-              <small>3 Completed Projects</small>
+              <small>5 Completed Projects</small>
             </article>
 
             <article className="about__card">
@@ -39,7 +39,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>An ambitious university graduate with a 2:1 degree in Mathematics with Computer Science and a commitment to pursuing a career in Software Development. Self-learning with a hint of bootcamp experience has deepened my knowledge and interests on getting into the tech industry even more. I wish to excel in a front-end dev role, eventually becoming a senior developer. </p>
+          <p>As a highly skilled coding bootcamp graduate with diverse expertise in multiple coding languages, I have demonstrated proficiency in developing web applications and creating websites from scratch. While I specialize in React, I am constantly seeking to expand my knowledge and skill set by exploring new programming languages and taking on coding challenges that push me out of my comfort zone. My ultimate goal is to pursue a career in Software Development, with a focus on front-end development, and achieve excellence as a front-end developer. Looking forward, I aspire to continue growing and advancing, ultimately achieving the status of a senior developer. </p>
 
           <a href="#contact" className='btn btn-primary'>Stay in touch</a>
         </div>
